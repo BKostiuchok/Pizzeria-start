@@ -1,0 +1,175 @@
+:root {
+    box-sizing: border-box;
+    color: white;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("img/wood-1759566_1920.jpg");
+}
+
+#header {
+    background: rgba(36, 35, 35, 0.7);
+    padding: 5px;
+    font-family: "Cookie", cursive;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo img {
+    margin: 20px;
+    width: 60px;
+}
+
+.menu {
+    flex: 0 0 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.menu ul li a:hover {
+    color: #f1b940;
+}
+
+.contact-info {
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.slider-box {
+    height: 200px;
+    background-color: rgba(36, 35, 35, 0.7);
+    display: flex;
+}
+
+.slider-half-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+.slider-half-item .button {
+    text-transform: uppercase;
+    padding: 8px;
+    text-decoration: none;
+    margin: 2px;
+    font-size: 0.7rem;
+}
+
+.button-section {
+    margin-top: 20px;
+}
+
+.order-button {
+    color: #7fd7ff;
+    border: 2px solid #7fd7ff;
+    background-color: #4d849d90;
+}
+
+.book-button {
+    color: #f1b940;
+    border: 2px solid #f1b940;
+    background-color: #6d5104d1;
+}
+
+.order-button:hover,
+.book-button:hover {
+    background-color: #333;
+}
+
+.pizza-img {
+    background-image: url("img/pizza-2589569_1920.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.advantages-box {
+    margin-top: 10px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.advantages-box div {
+    flex: 1 0 30%;
+}
+
+.column-advantages {
+    position: relative;
+    height: 160px;
+    border: 5px solid rgba(36, 35, 35, 0.80);
+    background-size: cover;
+    background-position: center center;
+}
+
+.best-ingredients {
+    background-image: url("img/still-life-4855955_1920.jpg");
+}
+
+.original-recipe {
+    background-image: url("img/recipe-book-7110932_1920.jpg");
+}
+
+.fast-delivery {
+    background-image: url("img/scooter-4062921_1920.jpg");
+}
+
+.button-right {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.kitchen-menu {
+    margin-top: 15px;
+    background-color: rgba(36, 35, 35, 0.80) ;
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    gap: 20px;
+}
+
+.menu-one-forth {
+    flex-basis: 25%;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.menu-one-forth img {
+    width: 100%;
+}
+
+.page-footer {
+    width: 100%;
+    background-color: rgba(36, 35, 35, 0.80);
+    font-family: "Cookie", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
