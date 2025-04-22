@@ -112,6 +112,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .advantages-box div {
@@ -141,12 +142,12 @@ body {
 .button-right {
     position: absolute;
     right: 10px;
-    bottom: 10px;
+    top: 10px;
 }
 
 .kitchen-menu {
     margin-top: 15px;
-    background-color: rgba(36, 35, 35, 0.80) ;
+    background-color: rgba(36, 35, 35, 0.80);
     display: flex;
     justify-content: space-between;
     font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
@@ -172,4 +173,35 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .button-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-section .button {
+        margin: 10px 0;
+    }
+
+    .advantages-box div {
+        flex: 1 0 50%;
+    }
+
+    .button-right {
+        font-size: 1.1rem;
+
+    }
+
+    .kitchen-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-one-forth {
+        font-size: 1.1rem;
+    }
+
 }
